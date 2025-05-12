@@ -1,0 +1,10 @@
+.product-row-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 8px;
+  margin: 10px;
+}
+.product-row-container::-webkit-scrollbar {
+  display: none;
+}

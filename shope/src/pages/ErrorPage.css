@@ -1,0 +1,34 @@
+.error-page {
+  text-align: center;
+  padding: 3rem;
+  color: #333;
+}
+
+.error-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.error-page p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.error-detail {
+  color: #aa0000;
+  font-style: italic;
+}
+
+.error-back-home {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.error-back-home:hover {
+  background-color: #005fa3;
+}
