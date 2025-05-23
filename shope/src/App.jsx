@@ -8,6 +8,8 @@ import KidsWear from './pages/KidsWear'
 import MensWear from './pages/MensWear'
 import Electronics from './pages/Electronics'
 import ErrorPage from './pages/ErrorPage'
+import ProductDetails from './pages/ProductDetails';
+import Checkout from './pages/Checkout';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
       {
         path: "electronics",
         element: <Electronics />,
+      },
+            {
+        path: "product/:id",
+        element: <ProductDetails />,
+      },
+      {
+        path: "checkout",
+        element: <Checkout />
       },
     ]
   }
