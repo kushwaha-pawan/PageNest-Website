@@ -38,7 +38,7 @@ import a37 from '../assets/card/a37.jpg';
 import a38 from '../assets/card/a38.jpg';
 import a39 from '../assets/card/a39.jpg';
 import a40 from '../assets/card/a40.jpg';
-
+import e1 from '../assets/card/e1.jpg';
 
 const productData = [
   {
@@ -399,6 +399,15 @@ const productData = [
     description: 'Regular fit, geometric print',
     price: 1199,
     originalPrice: 1499,
+    discount: '20%',
+  },
+  {
+    id: '41',
+    image: e1,
+    title: ' Alexa solltest du kennen',
+    description: 'Sprachbefehle  Alexa speaker',
+    price: 5000,
+    originalPrice: 8000,
     discount: '20%',
   },
 ];
